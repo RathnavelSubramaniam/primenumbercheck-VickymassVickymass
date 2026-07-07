@@ -16,9 +16,9 @@ function isPrime(num) {
     return true;
 }
 if (isPrime(n)) {
-    contsole.log("prime Number");
+    contsole.log("Prime Number");
 }
 else {
-    console.log("Not prime Number");
+    console.log("Not Prime Number");
 }   
 module.exports = isPrime;
