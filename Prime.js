@@ -6,17 +6,19 @@
  */
 // const n=parseInt();
 const n = parseInt(process.argv[2]);
+
 function isPrime(num) {
     if (num <=1)return false;
+    
     for (let i=2; i < num; i++){
-        if (num % i===0) {
+        if (num % i === 0) {
             return fales;
         }
     }
     return true;
 }
 if (isPrime(n)) {
-    contsole.log("Prime Number");
+    console.log("Prime Number");
 }
 else {
     console.log("Not Prime Number");
